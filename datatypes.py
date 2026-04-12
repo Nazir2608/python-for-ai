@@ -35,3 +35,19 @@ print(greeting)
 age = 25
 message = f"{name} is {age} years old."
 print(message)  
+
+
+is_logged_in = True
+is_admin = True
+has_permission = True
+print("Is logged in:", is_logged_in)
+print("Is admin:", is_admin)
+print("Has permission:", has_permission)
+
+if is_logged_in and has_permission:
+    print("Access granted.")
+else:    print("Access denied.")
+
+if is_logged_in and is_admin:
+    print("Welcome, admin!")
+else:    print("Welcome, user!")    
