@@ -44,3 +44,16 @@ print(numbers)
 numbers.sort(reverse=True)
 print(numbers)
 print(len(numbers))
+
+
+#Checking lists
+fruits = ["apple", "banana", "orange"]
+print("apple" in fruits)  
+print("mango" in fruits)  
+
+if "banana" in fruits:
+    print("Banana is in the list.")
+
+if fruits:
+    print("The list is not empty.")
+else:    print("The list is empty.")
